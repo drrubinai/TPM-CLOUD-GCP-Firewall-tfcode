@@ -1,9 +1,9 @@
 # Terraform configuration
 terraform {
   backend "remote" {
-    organization = "epam092020"
+    organization = "epam102020"
     workspaces {
-      name = "epm-sec-terraform-template-1"
+      name = "TPM-CLOUD-GCP-Firewall-tfcode"
     }
   }
 }
